@@ -49,12 +49,6 @@ product.post("/api/product", uploads.single("image"), (req, res) => {
     const { name, price } = req.body;
     const file = req.file;
 
-    if (!name || !price || !file) {
-      return res
-        .status(400)
-        .json({ error: "Name, price, and image are required." });
-    }
-
     const products = readProduct();
 
     // 🔴 Check if product with same name already exists (case-insensitive)
