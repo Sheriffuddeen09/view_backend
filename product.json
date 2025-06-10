@@ -4,43 +4,65 @@
     "name": "Pant Wear",
     "price": 80.99,
     "imageUrl": "/uploads/pant.png",
-    "description":"Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Pant wear brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Pant wear — the foundation of any outfit. From casual Pant wear perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shirt support every step. Move up to our shirts, where versatility meets flair.",
-    "type":"Pant Wear",
-    "imagetwo":"/uploads/panttwo.png",
-    "imagethree":"/uploads/pantthree.png",
-    "imagefour":"/uploads/pantfour.png"
+    "description": "Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Pant wear brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Pant wear — the foundation of any outfit. From casual Pant wear perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shirt support every step. Move up to our shirts, where versatility meets flair.",
+    "type": "Pant Wear",
+    "imagetwo": "/uploads/panttwo.png",
+    "imagethree": "/uploads/pantthree.png",
+    "imagefour": "/uploads/pantfour.png"
   },
   {
     "id": 2,
     "name": "Shirt Polo",
-    "price": 100.00,
+    "price": 100,
     "imageUrl": "/uploads/shirt.png",
-    "description":"Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Shirt brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Shirt — the foundation of any outfit. From casual Shirt perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shirt support every step. Move up to our shirts, where versatility meets flair.",
-    "type":"Shirt",
-    "imagetwo":"/uploads/shirttwo.png",
-    "imagethree":"/uploads/shirtthree.png",
-    "imagefour":"/uploads/shirtfour.png"
+    "description": "Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Shirt brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Shirt — the foundation of any outfit. From casual Shirt perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shirt support every step. Move up to our shirts, where versatility meets flair.",
+    "type": "Shirt",
+    "imagetwo": "/uploads/shirttwo.png",
+    "imagethree": "/uploads/shirtthree.png",
+    "imagefour": "/uploads/shirtfour.png"
   },
   {
     "id": 3,
     "name": "Shoe",
     "price": 30.09,
     "imageUrl": "/uploads/shoe.png",
-    "description":"Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Shoe brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Shoe — the foundation of any outfit. From casual Shoe perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shoe support every step. Move up to our shirts, where versatility meets flair.",
-    "type":"Shoe",
-    "imagetwo":"/uploads/shoetwo.png",
-    "imagethree":"/uploads/shoethree.png",
-    "imagefour":"/uploads/shoefour.png"
+    "description": "Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Shoe brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Shoe — the foundation of any outfit. From casual Shoe perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shoe support every step. Move up to our shirts, where versatility meets flair.",
+    "type": "Shoe",
+    "imagetwo": "/uploads/shoetwo.png",
+    "imagethree": "/uploads/shoethree.png",
+    "imagefour": "/uploads/shoefour.png"
   },
   {
     "id": 4,
     "name": "Wedding Frame",
     "price": 80.99,
     "imageUrl": "/uploads/watch.png",
-    "description":"Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Watch brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Watch — the foundation of any outfit. From casual Watch perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shirt support every step. Move up to our shirts, where versatility meets flair.",
-    "type":"Watch",
-    "imagetwo":"/uploads/watchtwo.png",
-    "imagethree":"/uploads/watchthree.png",
-    "imagefour":"/uploads/watchfour.png"
+    "description": "Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Watch brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Watch — the foundation of any outfit. From casual Watch perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shirt support every step. Move up to our shirts, where versatility meets flair.",
+    "type": "Watch",
+    "imagetwo": "/uploads/watchtwo.png",
+    "imagethree": "/uploads/watchthree.png",
+    "imagefour": "/uploads/watchfour.png"
+  },
+  {
+    "id": 1749541674583,
+    "name": "T-Shirt ",
+    "description": "Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Pant wear brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Pant wear — the foundation of any outfit. From casual Pant wear perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shirt support every step. Move up to our shirts, where versatility meets flair.",
+    "type": "Shirt",
+    "price": 1000,
+    "imageUrl": "/uploads/5aae1bc9f2d5a7123db52d391272aec8",
+    "imagetwo": "/uploads/67acf262369f0c9d084d3d3542bb1f56",
+    "imagethree": "/uploads/3a604e104a112ae22a7d7d5bda90c2ef",
+    "imagefour": "/uploads/d6940adf2b7d677f80df3db366740595"
+  },
+  {
+    "id": 1749541684588,
+    "name": "",
+    "description": "",
+    "type": "",
+    "price": null,
+    "imageUrl": "/uploads/undefined",
+    "imagetwo": null,
+    "imagethree": null,
+    "imagefour": null
   }
 ]

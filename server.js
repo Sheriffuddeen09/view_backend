@@ -55,20 +55,18 @@ product.get("/api/product", (req, res) =>{
 })
 
 //POST new product 
-product.post("/api/product", uploads.single( 
-          { name: 'imageUrl', maxCount: 1 },
-          { name: 'imagetwo', maxCount: 1 },
-          { name: 'imagethree', maxCount: 1 },
-          { name: 'imagefour', maxCount: 1 },), (req, res) => {
-
-  
+product.post("/api/product", uploads.fields([
+  { name: 'imageUrl', maxCount: 1 },
+  { name: 'imagetwo', maxCount: 1 },
+  { name: 'imagethree', maxCount: 1 },
+  { name: 'imagefour', maxCount: 1 },
+]), (req, res) => {
   try {
     const { name, price, description, type } = req.body;
     const files = req.files;
 
     const products = readProduct();
 
-    // 🔴 Check if product with same name already exists (case-insensitive)
     const exists = products.some(
       (p) => p.name.trim().toLowerCase() === name.trim().toLowerCase()
     );
@@ -78,10 +76,11 @@ product.post("/api/product", uploads.single(
         .json({ error: "A product with this name already exists." });
     }
 
-    const imageUrl = `/uploads/${files.imageUrl[0].filename}`;
-    const imagetwo = files.imagetwo ? `/uploads/${files.imagetwo[0].filename}` : null;
-    const imagethree = files.imagethree ? `/uploads/${files.imagethree[0].filename}` : null;
-    const imagefour = files.imagefour ?`/uploads/${files.imagefour[0].filename}` : null;
+    const imageUrl = `/uploads/${files.imageUrl?.[0]?.filename}`;
+    const imagetwo = files.imagetwo?.[0] ? `/uploads/${files.imagetwo[0].filename}` : null;
+    const imagethree = files.imagethree?.[0] ? `/uploads/${files.imagethree[0].filename}` : null;
+    const imagefour = files.imagefour?.[0] ? `/uploads/${files.imagefour[0].filename}` : null;
+
     const newProduct = {
       id: Date.now(),
       name,
@@ -103,6 +102,7 @@ product.post("/api/product", uploads.single(
     res.status(500).json({ error: "Internal server error" });
   }
 });
+
 
 //DELETE product by ID
 
