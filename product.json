@@ -55,14 +55,14 @@
     "imagefour": "/uploads/d6940adf2b7d677f80df3db366740595"
   },
   {
-    "id": 1749541684588,
-    "name": "",
-    "description": "",
-    "type": "",
-    "price": null,
-    "imageUrl": "/uploads/undefined",
-    "imagetwo": null,
-    "imagethree": null,
-    "imagefour": null
+    "id": 1749542883779,
+    "name": "Watch",
+    "description": "Fashion is not just about appearance — it's a statement of personality, lifestyle, and confidence. Our collection of men’s and women’s Watch brings together elegance, comfort, and practicality, making it easy to express yourself in every situation. Let’s start with Watch — the foundation of any outfit. From casual Watch perfect for Ocassional outting to premium leather dress shoes built for the office and special events, our footwear blends form and function. Each pair is crafted with breathable materials, cushioned soles, and stylish detailing. Whether you're chasing comfort or commanding presence, these Shirt support every step. Move up to our shirts, where versatility meets flair.",
+    "type": "Watch",
+    "price": 200,
+    "imageUrl": "/uploads/0f240d5b346d758717cef69208be70b3",
+    "imagetwo": "/uploads/6d94fcf15b34022f15eb779b99b9a96a",
+    "imagethree": "/uploads/68852d5e7e1b12532ade8cfba9f80f1d",
+    "imagefour": "/uploads/a7d830142496daf8dd5d434ceaaef55e"
   }
 ]
