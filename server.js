@@ -17,12 +17,23 @@ product.use(express.json());
 product.use(express.urlencoded({ extended: true })); // for form data
 product.use("/uploads", express.static(path.resolve("uploads")));
 
-const storage = multer.diskStorage({
+let storage
+
+storage = multer.diskStorage({
   destination: (req, file, cb) => cb(null, UPLOADS_IMAGE),
   filename: (req, file, cb) =>
     cb(null, Date.now() + "-" + file.originalname.replace(/\s+/g, "_")),
 });
+
+storage = multer.diskStorage({
+  destination: (req, file, cb) => cb(null, UPLOADS_IMAGE),
+  filenameone: (req, file, cb) =>
+    cb(null, Date.now() + "-" + file.originalname.replace(/\s+/g, "_")),
+});
+
 const uploads = multer({ storage });
+
+
 
 
 const readProduct = () =>{
@@ -44,10 +55,16 @@ product.get("/api/product", (req, res) =>{
 })
 
 //POST new product 
-product.post("/api/product", uploads.single("image"), (req, res) => {
+product.post("/api/product", uploads.single( 
+          { name: 'imageUrl', maxCount: 1 },
+          { name: 'imagetwo', maxCount: 1 },
+          { name: 'imagethree', maxCount: 1 },
+          { name: 'imagefour', maxCount: 1 },), (req, res) => {
+
+  
   try {
-    const { name, price } = req.body;
-    const file = req.file;
+    const { name, price, description, type } = req.body;
+    const files = req.files;
 
     const products = readProduct();
 
@@ -61,12 +78,20 @@ product.post("/api/product", uploads.single("image"), (req, res) => {
         .json({ error: "A product with this name already exists." });
     }
 
-    const imageUrl = `/uploads/${file.filename}`;
+    const imageUrl = `/uploads/${files.imageUrl[0].filename}`;
+    const imagetwo = files.imagetwo ? `/uploads/${files.imagetwo[0].filename}` : null;
+    const imagethree = files.imagethree ? `/uploads/${files.imagethree[0].filename}` : null;
+    const imagefour = files.imagefour ?`/uploads/${files.imagefour[0].filename}` : null;
     const newProduct = {
       id: Date.now(),
       name,
+      description,
+      type,
       price: parseFloat(price),
       imageUrl,
+      imagetwo,
+      imagethree,
+      imagefour,
     };
 
     products.push(newProduct);
